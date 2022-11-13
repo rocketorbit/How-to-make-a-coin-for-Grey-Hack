@@ -1,4 +1,4 @@
-#How to make a ingame coin for grey hack
+# How to make a ingame coin for grey hack
 
 1. make sure that you are above level 2 and have more than 150$ in bank.
 2. search "coin" in browser
