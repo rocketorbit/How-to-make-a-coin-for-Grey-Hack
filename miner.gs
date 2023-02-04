@@ -27,9 +27,9 @@ while true
     if blockchain.amount_mined(coin_name) >= miner_hard_limit then exit("Mining disabled.")
     if i == 0 then print("Started mining...")
     print("Mining for subwallet " + subWallet.get_user + " (Which is wallet " + subWallet.wallet_username + ")")
-	subWallet.mining
-	i = i + 1
-	print(i + " mining cycles done.")
-	print(coin.get_reward + " " + coin_name + " added to subwallet.")
-	print("New balance: " + subWallet.get_balance)
+    subWallet.mining
+    i = i + 1
+    print(i + " mining cycles done.")
+    print(coin.get_reward + " " + coin_name + " added to subwallet.")
+    print("New balance: " + subWallet.get_balance)
 end while
