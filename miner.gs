@@ -18,7 +18,7 @@ while true
     subWalletUser = user_input("input subwallet username: ")
     subWalletPass = user_input("input subwallet password: ", true)
     subWallet = coin.get_subwallet(subWalletUser)
-    if (typeof(subWallet) == "subwallet") and (subWallet.check_password == true) then break
+    if (typeof(subWallet) != "subwallet") or (subWallet.check_password != true) then break
     print("Error: Invalid username or password")
 end while
 i = 0
